@@ -1,0 +1,397 @@
+export const translations = {
+  pt: {
+    // Navigation
+    nav: {
+      home: "Início",
+      products: "Produtos",
+      myOrders: "Meus Pedidos",
+      profile: "Perfil",
+      support: "Suporte",
+      admin: "Admin",
+      cart: "Carrinho",
+      logout: "Sair",
+    },
+    
+    // Auth
+    auth: {
+      login: "Entrar",
+      register: "Registrar",
+      createAccount: "Criar Conta",
+      signIn: "Fazer Login",
+      serial: "Serial MTA",
+      email: "Email",
+      phone: "Número de Telefone",
+      password: "Senha",
+      confirmPassword: "Confirmar Senha",
+      rememberMe: "Lembrar do meu login",
+      dontHaveAccount: "Não tem uma conta?",
+      alreadyHaveAccount: "Já tem uma conta?",
+      createHere: "Crie uma aqui",
+      signInHere: "Faça login aqui",
+      welcome: "Bem-vindo",
+      accountCreated: "Conta criada com sucesso!",
+      loginSuccess: "Login realizado com sucesso",
+      invalidCredentials: "Serial ou senha inválidos",
+    },
+
+    // Home
+    home: {
+      title: "MTA Shop",
+      subtitle: "Loja oficial de itens para MTA",
+      heroTitle: "Bem-vindo ao MTA Shop",
+      heroSubtitle: "Compre VIP, moedas e itens especiais para seu personagem",
+      shopNow: "Comprar Agora",
+      getStarted: "Começar",
+      featured: "Produtos em Destaque",
+      newProducts: "Produtos Novos",
+      whyChooseUs: "Por que nos Escolher?",
+      checkPopular: "Confira nossos itens mais populares",
+      ordersDelivered: "Pedidos Entregues",
+      instantDelivery: "Entrega Instantânea",
+      securePayments: "Pagamentos Seguros",
+      secureTransactions: "Transações protegidas com criptografia de pagamento",
+      mtaDelivery: "Entrega automática para sua conta MTA após confirmação",
+      supportHelp: "Assistência 24/7 para todas as suas necessidades",
+    },
+
+    // Products
+    products: {
+      title: "Produtos",
+      search: "Buscar produtos...",
+      filter: "Filtrar",
+      sort: "Ordenar",
+      addToCart: "Adicionar ao Carrinho",
+      price: "Preço",
+      category: "Categoria",
+      inStock: "Em Estoque",
+      outOfStock: "Fora de Estoque",
+      vip: "VIP",
+      currency: "Moeda",
+      items: "Itens",
+      special: "Especial",
+    },
+
+    // Cart
+    cart: {
+      title: "Carrinho",
+      empty: "Seu carrinho está vazio",
+      items: "Itens",
+      subtotal: "Subtotal",
+      tax: "Imposto",
+      total: "Total",
+      checkout: "Ir para Checkout",
+      continue: "Continuar Comprando",
+      remove: "Remover",
+      quantity: "Quantidade",
+    },
+
+    // Checkout
+    checkout: {
+      title: "Checkout",
+      orderSummary: "Resumo do Pedido",
+      paymentMethod: "Método de Pagamento",
+      pix: "PIX",
+      card: "Cartão de Crédito",
+      placeOrder: "Fazer Pedido",
+      secure: "Checkout Seguro",
+      encrypted: "Criptografado",
+      noProducts: "Nenhum produto disponível",
+      pixInfo: "Informações do PIX",
+      pixKey: "Chave PIX",
+      pixCopyInstructions: "Copie a chave abaixo e envie o valor através do seu banco",
+      pixPaymentInfo: "Após enviar o PIX, clique em 'Fazer Pedido' para confirmar seu pagamento",
+    },
+
+    // Hero - Additional translations
+    hero: {
+      premium: "Produtos MTA Premium",
+      levelUp: "MELHORE SEU",
+      mtaExp: "EXPERIÊNCIA MTA",
+      purchase: "Compre pacotes VIP, moedas do jogo e itens exclusivos para seu servidor MTA.",
+      secureCheckout: "Checkout seguro com entrega instantânea",
+    },
+
+    // Orders
+    orders: {
+      title: "Meus Pedidos",
+      empty: "Você não tem pedidos",
+      order: "Pedido",
+      status: "Status",
+      date: "Data",
+      amount: "Valor",
+      details: "Detalhes",
+      viewOrder: "Ver Pedido",
+      pending: "Pendente",
+      completed: "Completado",
+      delivered: "Entregue",
+      failed: "Falhou",
+      cancel: "Cancelar Pedido",
+      cancelConfirm: "Tem certeza que deseja cancelar este pedido?",
+      cancelled: "Pedido cancelado com sucesso",
+    },
+
+    // Profile
+    profile: {
+      title: "Perfil do Jogador",
+      username: "Usuário",
+      health: "Vida",
+      armor: "Colete",
+      money: "Dinheiro",
+      cityCoins: "Moedas da Cidade",
+      level: "Nível",
+      experience: "Experiência",
+      serial: "Serial",
+      lastUpdated: "Última Atualização",
+      accountInfo: "Informações da Conta",
+    },
+
+    // Admin
+    admin: {
+      title: "Painel Admin",
+      products: "Produtos",
+      orders: "Pedidos",
+      analytics: "Análise",
+      support: "Suporte",
+      addProduct: "Adicionar Produto",
+      editProduct: "Editar Produto",
+      deleteProduct: "Deletar Produto",
+      manageOrders: "Gerenciar Pedidos",
+      totalRevenue: "Receita Total",
+      totalOrders: "Total de Pedidos",
+      totalCustomers: "Total de Clientes",
+    },
+
+    // Support
+    support: {
+      title: "Suporte",
+      newTicket: "Novo Ticket",
+      subject: "Assunto",
+      message: "Mensagem",
+      status: "Status",
+      created: "Criado",
+      updated: "Atualizado",
+      open: "Aberto",
+      inProgress: "Em Progresso",
+      resolved: "Resolvido",
+      closed: "Fechado",
+    },
+
+    // Common
+    common: {
+      loading: "Carregando...",
+      error: "Erro",
+      success: "Sucesso",
+      cancel: "Cancelar",
+      delete: "Deletar",
+      edit: "Editar",
+      save: "Salvar",
+      close: "Fechar",
+      back: "Voltar",
+      next: "Próximo",
+      previous: "Anterior",
+      search: "Buscar",
+      filter: "Filtrar",
+      language: "Idioma",
+      portuguese: "Português",
+      english: "English",
+      addedToCart: "Adicionado ao Carrinho",
+      hasBeenAdded: "foi adicionado ao seu carrinho",
+    },
+
+    // Hero
+    hero: {
+      premium: "Produtos MTA Premium",
+      levelUp: "MELHORE SEU",
+      mtaExp: "EXPERIÊNCIA MTA",
+      purchase: "Compre pacotes VIP, moedas do jogo e itens exclusivos para seu servidor MTA.",
+      secureCheckout: "Checkout seguro com entrega instantânea",
+    },
+  },
+
+  en: {
+    // Navigation
+    nav: {
+      home: "Home",
+      products: "Products",
+      myOrders: "My Orders",
+      profile: "Profile",
+      support: "Support",
+      admin: "Admin",
+      cart: "Cart",
+      logout: "Logout",
+    },
+
+    // Auth
+    auth: {
+      login: "Sign In",
+      register: "Register",
+      createAccount: "Create Account",
+      signIn: "Sign In",
+      serial: "MTA Serial",
+      email: "Email",
+      phone: "Phone Number",
+      password: "Password",
+      confirmPassword: "Confirm Password",
+      rememberMe: "Remember my login",
+      dontHaveAccount: "Don't have an account?",
+      alreadyHaveAccount: "Already have an account?",
+      createHere: "Create one here",
+      signInHere: "Sign in here",
+      welcome: "Welcome back",
+      accountCreated: "Account created successfully!",
+      loginSuccess: "Successfully logged in",
+      invalidCredentials: "Invalid serial or password",
+    },
+
+    // Home
+    home: {
+      title: "MTA Shop",
+      subtitle: "Official store for MTA items",
+      heroTitle: "Welcome to MTA Shop",
+      heroSubtitle: "Buy VIP, coins and special items for your character",
+      shopNow: "Shop Now",
+      getStarted: "Get Started",
+      featured: "Featured Products",
+      newProducts: "New Products",
+      whyChooseUs: "Why Choose Us?",
+      checkPopular: "Check out our most popular items",
+      ordersDelivered: "Orders Delivered",
+      instantDelivery: "Instant Delivery",
+      securePayments: "Secure Payments",
+      secureTransactions: "Protected transactions with encrypted payment processing",
+      mtaDelivery: "Automatic delivery to your MTA account after confirmation",
+      supportHelp: "Round-the-clock assistance for all your needs",
+    },
+
+    // Products
+    products: {
+      title: "Products",
+      search: "Search products...",
+      filter: "Filter",
+      sort: "Sort",
+      addToCart: "Add to Cart",
+      price: "Price",
+      category: "Category",
+      inStock: "In Stock",
+      outOfStock: "Out of Stock",
+      vip: "VIP",
+      currency: "Currency",
+      items: "Items",
+      special: "Special",
+    },
+
+    // Cart
+    cart: {
+      title: "Cart",
+      empty: "Your cart is empty",
+      items: "Items",
+      subtotal: "Subtotal",
+      tax: "Tax",
+      total: "Total",
+      checkout: "Go to Checkout",
+      continue: "Continue Shopping",
+      remove: "Remove",
+      quantity: "Quantity",
+    },
+
+    // Checkout
+    checkout: {
+      title: "Checkout",
+      orderSummary: "Order Summary",
+      paymentMethod: "Payment Method",
+      pix: "PIX",
+      card: "Credit Card",
+      placeOrder: "Place Order",
+      secure: "Secure Checkout",
+      encrypted: "Encrypted",
+      noProducts: "No products available",
+    },
+
+    // Orders
+    orders: {
+      title: "My Orders",
+      empty: "You don't have any orders",
+      order: "Order",
+      status: "Status",
+      date: "Date",
+      amount: "Amount",
+      details: "Details",
+      viewOrder: "View Order",
+      pending: "Pending",
+      completed: "Completed",
+      delivered: "Delivered",
+      failed: "Failed",
+    },
+
+    // Profile
+    profile: {
+      title: "Player Profile",
+      username: "Username",
+      health: "Health",
+      armor: "Armor",
+      money: "Money",
+      cityCoins: "City Coins",
+      level: "Level",
+      experience: "Experience",
+      serial: "Serial",
+      lastUpdated: "Last Updated",
+      accountInfo: "Account Information",
+    },
+
+    // Admin
+    admin: {
+      title: "Admin Panel",
+      products: "Products",
+      orders: "Orders",
+      analytics: "Analytics",
+      support: "Support",
+      addProduct: "Add Product",
+      editProduct: "Edit Product",
+      deleteProduct: "Delete Product",
+      manageOrders: "Manage Orders",
+      totalRevenue: "Total Revenue",
+      totalOrders: "Total Orders",
+      totalCustomers: "Total Customers",
+    },
+
+    // Support
+    support: {
+      title: "Support",
+      newTicket: "New Ticket",
+      subject: "Subject",
+      message: "Message",
+      status: "Status",
+      created: "Created",
+      updated: "Updated",
+      open: "Open",
+      inProgress: "In Progress",
+      resolved: "Resolved",
+      closed: "Closed",
+    },
+
+    // Common
+    common: {
+      loading: "Loading...",
+      error: "Error",
+      success: "Success",
+      cancel: "Cancel",
+      delete: "Delete",
+      edit: "Edit",
+      save: "Save",
+      close: "Close",
+      back: "Back",
+      next: "Next",
+      previous: "Previous",
+      search: "Search",
+      filter: "Filter",
+      language: "Language",
+      portuguese: "Português",
+      english: "English",
+      addedToCart: "Added to cart",
+      hasBeenAdded: "has been added to your cart",
+    },
+  },
+} as const;
+
+export type Language = keyof typeof translations;
+export type TranslationKey = keyof typeof translations.pt;

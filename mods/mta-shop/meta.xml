@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+    <info author="MTA Shop" type="script" name="MTA Shop System" description="Sistema de shop automático para MTA" version="1.0.0"/>
+    
+    <!-- Scripts do Servidor -->
+    <script src="server/delivery.lua" type="server" />
+    
+    <!-- Arquivos do Cliente -->
+    <!-- <script src="client/main.lua" type="client" /> -->
+    
+    <!-- Arquivos Compartilhados -->
+    <!-- <script src="shared/config.lua" type="shared" /> -->
+    
+    <!-- Exports -->
+    <export function="deliverItem" type="server" />
+    <export function="retryDelivery" type="server" />
+    
+</meta>
