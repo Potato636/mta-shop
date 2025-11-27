@@ -197,15 +197,6 @@ export const translations = {
       addedToCart: "Adicionado ao Carrinho",
       hasBeenAdded: "foi adicionado ao seu carrinho",
     },
-
-    // Hero
-    hero: {
-      premium: "Produtos MTA Premium",
-      levelUp: "MELHORE SEU",
-      mtaExp: "EXPERIÊNCIA MTA",
-      purchase: "Compre pacotes VIP, moedas do jogo e itens exclusivos para seu servidor MTA.",
-      secureCheckout: "Checkout seguro com entrega instantânea",
-    },
   },
 
   en: {
