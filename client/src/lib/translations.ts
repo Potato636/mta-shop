@@ -102,15 +102,6 @@ export const translations = {
       pixPaymentInfo: "Após enviar o PIX, clique em 'Fazer Pedido' para confirmar seu pagamento",
     },
 
-    // Hero - Additional translations
-    hero: {
-      premium: "Produtos MTA Premium",
-      levelUp: "MELHORE SEU",
-      mtaExp: "EXPERIÊNCIA MTA",
-      purchase: "Compre pacotes VIP, moedas do jogo e itens exclusivos para seu servidor MTA.",
-      secureCheckout: "Checkout seguro com entrega instantânea",
-    },
-
     // Orders
     orders: {
       title: "Meus Pedidos",
